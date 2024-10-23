@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import heroImage from '../assets/hero-image.png';
+import heroImage from '../assets/hero-image.png'; // Ensure the image path is correct
 import threeLinesIcon from '../assets/three-line.svg';
 
 const HeroSection = () => {
@@ -25,7 +25,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
-        className="absolute top-1/3 left-[-10%] md:left-[0%] w-[90%] md:w-[45%] z-20" // Adjusted left property here
+        className="absolute top-1/3 left-[-10%] md:left-[-5%] w-[90%] md:w-[45%] z-20" // Adjusted for responsive layout
       >
         <div className="relative">
           <h1 className="text-white font-campton text-4xl sm:text-5xl md:text-7xl italic font-extrabold uppercase leading-tight tracking-wide mb-6">
